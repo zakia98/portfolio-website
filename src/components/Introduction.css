@@ -1,0 +1,32 @@
+.introduction-wrapper {
+    height:100vh;
+    width:auto;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/background-large.jpg');
+    background-position: center 30%;
+    background-size:cover;
+}
+
+.title {
+    margin-bottom: 50px;
+}
+
+.scroll.button {
+    font-size:20px;
+    background-color: transparent;
+    color:white;
+    padding:10px;
+    border-radius: 5px;
+    border:2px solid white;
+    display:flex;
+    width:142px;
+}
+
+.typewriter {
+    min-height:220px;
+    margin:0
+}

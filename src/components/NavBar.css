@@ -1,0 +1,25 @@
+nav {
+    background-color: #A3B18A;
+    display:flex;
+    margin-top: 20px;
+    color:#F9F9ED;
+    justify-content: flex-end;
+    position:sticky;
+    top:0;
+}
+
+.navbar-links {
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    list-style-type: none;
+    float:left;
+    gap:20px;
+    margin-right: 15px;
+    
+}
+
+li > a {
+    color:white
+}
+

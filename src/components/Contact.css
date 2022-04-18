@@ -1,0 +1,25 @@
+.contact-form-wrapper {
+    background-color: #3A5A40;
+    margin:20px;
+    display:flex;
+    flex-direction: column;
+    color:white;
+    padding:20px;
+    text-align:center;
+    max-width:600px;
+    align-self: center;
+}
+
+.contact-form {
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.form-item {
+    border:red solid 3px;
+}
+
+.form-item.desc {
+    height:50px;
+}
