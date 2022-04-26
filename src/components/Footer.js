@@ -6,7 +6,7 @@ import './Footer.css'
 export default function Footer() {
 
     return(
-        <footer className='footer'>
+        <footer className='footer' id="footer">
             <div className='contact-info'>
                 <img src={linkedinicon} alt='linkedin'></img>
                 <a href="https://www.linkedin.com/in/ameenahmed192/">https://www.linkedin.com/in/ameenahmed192/</a>

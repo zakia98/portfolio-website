@@ -23,7 +23,7 @@ export default function Projects(props) {
             />
             <ProjectItem 
             img={shoppingcartdemo} 
-            title={'Shopping Cart Demo'}
+            title={'Japanese Posters Store'}
             description={`
                 React based shopping cart composed of functional components and react hooks
                 to manage state, to create a working cart system where users can add purchases 

@@ -61,6 +61,14 @@ export default function About(props) {
                     <i className="devicon-nodejs-plain colored icon"></i>
                     <p>NodeJS</p>
                 </div>
+                <div className='tech-icon'>
+                    <i class="devicon-mongodb-plain colored icon"></i>
+                    <p>MongoDB</p>
+                </div>
+                <div className='tech-icon'>
+                    <i class="devicon-express-original icon"></i>
+                    <p>Express</p>
+                </div>
             </div>
             <p className="description">
                 Outside of web development, I enjoy <span className='highlight'>escape rooms, </span>
