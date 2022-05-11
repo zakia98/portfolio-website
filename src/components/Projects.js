@@ -8,7 +8,7 @@ export default function Projects(props) {
 
     return(
         <div id="projects" className='projects'>
-            <h2 className='heading'>Personal Projects</h2>
+            <h2 className='heading'>Portfolio Projects</h2>
             <ProjectItem 
             img={mangotalkdemo} 
             title={'MangoTalk Instant Messenger'}

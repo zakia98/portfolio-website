@@ -9,17 +9,19 @@
     color: white;
     justify-self: center;
     align-self: center;
+    font-size:48px;
+    border-bottom: 5px solid black;
 }
+
+
 
 .project-item {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color:#162a33;
     margin:20px;
     color:white;
     justify-content: center;
-    max-width: 600px;
 }
 
 .project-display {
@@ -45,10 +47,11 @@
 .project-info {
     display:flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     text-align:Left;
     margin-right: 30px;
     margin-left:30px;
+    max-width:500px;
 }
 
 .project-buttons {
@@ -58,13 +61,16 @@
 
 .project-link {
     margin:15px;
-    background-color: black;
-    border: 2px solid white;
-    color:white;
+    padding:10px;
+    font-size: 18px;
+    background-color: white;
+    border:none;
+    color:black;
     font-size:20px;
-    border-radius: 5px;
+    transition: 0.3s ease-in-out; 
 }
 
-.project-link > a {
-    color:white
+.project-link:hover {
+    background-color: black;
+    color:white;
 }
